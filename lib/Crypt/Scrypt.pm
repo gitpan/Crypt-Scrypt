@@ -6,7 +6,7 @@ use warnings;
 use Carp qw(croak);
 use XSLoader;
 
-our $VERSION    = '0.04';
+our $VERSION    = '0.05';
 our $XS_VERSION = $VERSION;
 $VERSION = eval $VERSION;
 
@@ -189,7 +189,7 @@ any value provided to the constructor. Croaks on failure.
 
 L<http://www.tarsnap.com/scrypt.html>
 
-L<http://git.chromium.org/gitweb/?p=libscrypt.git;a=tree>
+L<http://git.chromium.org/gitweb/?p=chromiumos/third_party/libscrypt.git;a=tree>
 
 =head1 REQUESTS AND BUGS
 
